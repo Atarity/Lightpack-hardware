@@ -1,0 +1,163 @@
+
+    _/        _/            _/          _/                                    _/      
+   _/              _/_/_/  _/_/_/    _/_/_/_/  _/_/_/      _/_/_/    _/_/_/  _/  _/   
+  _/        _/  _/    _/  _/    _/    _/      _/    _/  _/    _/  _/        _/_/      
+ _/        _/  _/    _/  _/    _/    _/      _/    _/  _/    _/  _/        _/  _/     
+_/_/_/_/  _/    _/_/_/  _/    _/      _/_/  _/_/_/      _/_/_/    _/_/_/  _/    _/    
+                   _/                      _/                                         
+              _/_/                        _/                                          
+
+                        lightpack.googlecode.com
+
+===================================================================================
+#    Hardware changelog
+===================================================================================
+-----------------------------------------------------------------------------------
+Version hw6.0T (Tai)
+-------------
+September 15, 2012
+
+* miniUSB --> microUSB
+* WF-4 --> RJ11 5p reel terminals
+* Act LED now thru-hole and bright
+* DJK02-A footprint holes are slot now by reason of SMT mount
+* Bootloader button right-angeled
+* New mount holes
+* All files convert in Eagle 6+ XML format
+
+Version hw6.0L
+-------------
+March 08, 2012
+
+* LUT adaptive layout with wire jumpers on bottom layer
+* SiTi DM633 LED drives as alternative for DM631
+
+Version hw6.0
+-------------
+January 10, 2012
+
+* All components now in 0805 package
+* SiTi DM631 LED drivers
+* Square PCB with mount holes for acryl casing
+* C5, C4 are ceramic now
+* WF-4 male/female LED module sockets instead of DEGSON screw terminals
+
+
+Version hw5.6
+-------------
+October 12, 2011
+
+* DJK02-A power socket added behind SS14 diode
+
+Version hw5.5 and 5.5L
+-------------
+August 11, 2011
+
+* ACT LED resistor reduced to 1K
+* C6 cap reduced to 50V 
+
+Version hw5.1
+-------------
+April 29, 2011
+
+* Linear regulator 3.3V for MCU and LED drivers
+* Voltage on LEDs is reduced by the diode, 
+  it is necessary to reduce the heat LED drivers
+* Added LED for blink when transmitting data via USB
+* Added 100nF capacitor for each chip
+* Remove RESET button
+
+Version hw5.0
+-------------
+April 3, 2011
+
+* Led drivers connection via SPI
+* Each led driver controls 5 LEDs (summary 10 LEDs)
+* One button to enter bootloader mode
+* Pads to connect the expansion board with an additional LED drivers
+* Pads to connect the SPI
+* Pads to connect the USART
+* Main board: 86 х 38 mm; Led board: 15 x 15 mm
+
+Version hw4.3
+-------------
+brunql & atarity, January 29, 2011
+
+* Led ref resistor 1kOm
+* Added external board for RGB LEDs
+
+Version hw4.1
+-------------
+brunql, January 22, 2011
+
+* AT90USB162
+* 2 x MBI5026 led drivers
+* 8 RGB SMD LEDs
+* Using miniUSB Type B connector
+* All resistors and capacitors in 1206 package
+
+Version hw4.0
+-------------
+brunql, January 4, 2011
+
+* Prototyping on 2 MCUs
+* First (ATmega8A) work as USB to UART transceiver
+* Second (ATmega8A) - control LEDs
+
+Version hw3.7
+-------------
+brunql, December 13, 2010
+
+* Fix bug with USB D+ D- connection
+* Fix bug in schema and board with LATCH of 74HC595
+* In PCB 6 (six!) wired jumpers, fixme
+
+Version hw3.0
+-------------
+brunql, December, 2010
+
+* ATmega8A
+* 4 x 74HC595
+* 8 x RGB LEDs
+* USB Type B
+* One PCB with wires to LEDs
+
+Version hw2.1.3
+---------------
+brunql, January 21, 2011
+
+Edited only schematic of AmbilightUSB:
+
+* Bugfix INT0 must be connected to USB D+
+
+
+Version hw2.1.2
+---------------
+brunql, December 9, 2010
+
+Edited only schematic of AmbilightUSB:
+
+* Bugfix quartz 16Mhz, but must 12Mhz
+* Bugfix 74HC595 connection (was LATCH - SCL, VCC - RCK, must LATCH - RCK, VCC - SCL)
+* Added value of the electrolytic capacitor C1: 1-10uF
+
+Version hw2.1
+-------------
+brunql, July 26, 2010
+
+* Two printed circuit boards are connected using 5 wires
+* ATtiny44-20SSU
+* 2 x 74HC595
+* 4 x RGB LEDs (SMD)
+* many resistors (3 for each RGB LED)
+* miniUSB Type B 
+
+Version hw1.*
+-------------
+brunql, Spring, 2010
+
+* using hardware from ColorsCMP project
+* ATmega32
+* DM134B
+* first 2 (and then 4) RGB LEDs
+* miniUSB Type B
