@@ -17003,6 +17003,33 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 <technology name=""/>
 </technologies>
 </device>
+<device name="-LIGHTPACK6T2" package="RJ11-1XN-5P">
+<connects>
+<connect gate="G$1" pin="B1" pad="B5"/>
+<connect gate="G$1" pin="B2" pad="B4"/>
+<connect gate="G$1" pin="B3" pad="B1"/>
+<connect gate="G$1" pin="B4" pad="B2"/>
+<connect gate="G$1" pin="B5" pad="B3"/>
+<connect gate="G$1" pin="G1" pad="G5"/>
+<connect gate="G$1" pin="G2" pad="G4"/>
+<connect gate="G$1" pin="G3" pad="G1"/>
+<connect gate="G$1" pin="G4" pad="G2"/>
+<connect gate="G$1" pin="G5" pad="G3"/>
+<connect gate="G$1" pin="R1" pad="R5"/>
+<connect gate="G$1" pin="R2" pad="R4"/>
+<connect gate="G$1" pin="R3" pad="R1"/>
+<connect gate="G$1" pin="R4" pad="R2"/>
+<connect gate="G$1" pin="R5" pad="R3"/>
+<connect gate="G$1" pin="VCC1" pad="VCC5"/>
+<connect gate="G$1" pin="VCC2" pad="VCC4"/>
+<connect gate="G$1" pin="VCC3" pad="VCC1"/>
+<connect gate="G$1" pin="VCC4" pad="VCC2"/>
+<connect gate="G$1" pin="VCC5" pad="VCC3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -17326,7 +17353,7 @@ Now with beefier pads!</description>
 <part name="IC3" library="_LedDrivers" deviceset="DM631" device="_SOP24"/>
 <part name="SV1" library="_brd-conn" deviceset="UART3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="_RJ11" deviceset="RJ11-5P-REEL" device="-LIGHTPACK6T"/>
+<part name="U$1" library="_RJ11" deviceset="RJ11-5P-REEL" device="-LIGHTPACK6T2"/>
 <part name="U$2" library="_RJ11" deviceset="RJ11-5P-REEL" device="-MAIN"/>
 <part name="J1" library="_connectors" deviceset="DCJ0202" device=""/>
 <part name="BOOTLOADER" library="_switches" deviceset="31-XX" device=""/>
