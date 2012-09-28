@@ -1,1 +1,10 @@
 *.?#?
+*.dri
+*.GBL
+*.GBS
+*.gpi
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT

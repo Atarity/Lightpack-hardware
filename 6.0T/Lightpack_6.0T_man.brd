@@ -6,12 +6,12 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1825,6 +1825,44 @@
 <rectangle x1="16.7651" y1="53.0274" x2="17.231" y2="53.0309" layer="21"/>
 <rectangle x1="17.2345" y1="53.0274" x2="17.2381" y2="53.0309" layer="21"/>
 <text x="14.52" y="48.15" size="0.9" layer="21" font="vector">09.2012</text>
+<polygon width="0.254" layer="41">
+<vertex x="22.3" y="37.8"/>
+<vertex x="22.3" y="44.6"/>
+<vertex x="29.4" y="44.6"/>
+<vertex x="29.4" y="37.7"/>
+<vertex x="22.3" y="37.7"/>
+</polygon>
+<polygon width="0.254" layer="41">
+<vertex x="16" y="38"/>
+<vertex x="16" y="36"/>
+<vertex x="22.2" y="36"/>
+<vertex x="22.2" y="38.6"/>
+<vertex x="16" y="38.6"/>
+</polygon>
+<polygon width="0.254" layer="41">
+<vertex x="44.6" y="54.5"/>
+<vertex x="44.7" y="54.5"/>
+<vertex x="44.7" y="48.4"/>
+<vertex x="53.3" y="48.4"/>
+<vertex x="53.3" y="48.6"/>
+<vertex x="53.3" y="54.5"/>
+<vertex x="44.7" y="54.5"/>
+<vertex x="44.7" y="54.2"/>
+<vertex x="44.8" y="54.2"/>
+<vertex x="44.8" y="54.1"/>
+<vertex x="44.7" y="54.1"/>
+<vertex x="44.7" y="54.4"/>
+</polygon>
+<polygon width="0.254" layer="41">
+<vertex x="44.4" y="33.7"/>
+<vertex x="44.4" y="27.4"/>
+<vertex x="53.8" y="27.4"/>
+<vertex x="53.8" y="33.6"/>
+<vertex x="44.4" y="33.6"/>
+<vertex x="44.4" y="33.5"/>
+<vertex x="44.4" y="33.1"/>
+<vertex x="44.4" y="33.6"/>
+</polygon>
 </plain>
 <libraries>
 <library name="AT90USB">
@@ -2888,23 +2926,23 @@ design rules under a new name.</description>
 <wire x1="42.19" y1="25.865" x2="42.19" y2="30.31" width="0.254" layer="1"/>
 <via x="41.95" y="44.65" extent="1-16" drill="0.6"/>
 <via x="42.19" y="30.31" extent="1-16" drill="0.6"/>
-<wire x1="50.44" y1="38.56" x2="42.19" y2="30.31" width="0.254" layer="16"/>
 <wire x1="30.495" y1="43.1075" x2="35.5975" y2="43.1075" width="0.254" layer="1"/>
 <wire x1="35.5975" y1="43.1075" x2="36.18" y2="43.69" width="0.254" layer="1"/>
-<wire x1="42.13" y1="45.04" x2="42.13" y2="46.805" width="0.254" layer="1"/>
+<wire x1="42.13" y1="44.83" x2="42.13" y2="46.805" width="0.254" layer="1"/>
 <wire x1="42.13" y1="46.805" x2="42.19" y2="46.865" width="0.254" layer="1"/>
 <wire x1="36.18" y1="43.69" x2="40.99" y2="43.69" width="0.254" layer="1"/>
 <wire x1="40.99" y1="43.69" x2="41.95" y2="44.65" width="0.254" layer="1"/>
-<wire x1="42.13" y1="45.04" x2="42.13" y2="44.83" width="0.254" layer="1"/>
 <wire x1="42.13" y1="44.83" x2="41.95" y2="44.65" width="0.254" layer="1"/>
 <wire x1="41.95" y1="44.65" x2="41.95" y2="30.55" width="0.254" layer="16"/>
 <wire x1="41.95" y1="30.55" x2="42.19" y2="30.31" width="0.254" layer="16"/>
-<wire x1="50.44" y1="38.56" x2="54.91" y2="38.56" width="0.254" layer="16"/>
-<wire x1="54.91" y1="38.56" x2="56.11" y2="37.36" width="0.254" layer="16"/>
-<wire x1="56.11" y1="37.36" x2="60.59" y2="37.36" width="0.254" layer="16"/>
 <wire x1="60.59" y1="37.36" x2="61.77" y2="38.54" width="0.254" layer="16"/>
 <wire x1="61.77" y1="38.54" x2="66.38" y2="38.54" width="0.254" layer="16"/>
 <wire x1="66.38" y1="38.54" x2="66.4" y2="38.56" width="0.254" layer="16"/>
+<wire x1="42.19" y1="30.31" x2="42.19" y2="30.28" width="0.254" layer="16"/>
+<wire x1="43.38" y1="29.36" x2="51.38" y2="37.36" width="0.254" layer="16"/>
+<wire x1="51.38" y1="37.36" x2="60.59" y2="37.36" width="0.254" layer="16"/>
+<wire x1="43.38" y1="29.36" x2="43.14" y2="29.36" width="0.254" layer="16"/>
+<wire x1="43.14" y1="29.36" x2="42.19" y2="30.31" width="0.254" layer="16"/>
 </signal>
 <signal name="LATCH">
 <contactref element="IC1" pad="14"/>
