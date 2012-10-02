@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,16 +41,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -15293,36 +15293,36 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 <library name="_RJ11">
 <packages>
 <package name="RJ11-1XN-5P">
-<pad name="R3" x="-0.524" y="2.546" drill="0.6"/>
-<pad name="B3" x="1.506" y="2.566" drill="0.6"/>
-<pad name="P$3" x="3.576" y="2.546" drill="0.6"/>
-<pad name="P$4" x="-1.534" y="0.006" drill="0.6"/>
-<pad name="G3" x="0.486" y="0.006" drill="0.6"/>
-<pad name="VCC3" x="2.546" y="0.006" drill="0.6"/>
-<pad name="R2" x="-12.174" y="2.546" drill="0.6"/>
-<pad name="B2" x="-10.144" y="2.566" drill="0.6"/>
-<pad name="P$9" x="-8.074" y="2.546" drill="0.6"/>
-<pad name="P$10" x="-13.184" y="0.006" drill="0.6"/>
-<pad name="G2" x="-11.164" y="0.006" drill="0.6"/>
-<pad name="VCC2" x="-9.104" y="0.006" drill="0.6"/>
-<pad name="R1" x="-23.824" y="2.546" drill="0.6"/>
-<pad name="B1" x="-21.794" y="2.566" drill="0.6"/>
-<pad name="P$15" x="-19.724" y="2.546" drill="0.6"/>
-<pad name="P$16" x="-24.834" y="0.006" drill="0.6"/>
-<pad name="G1" x="-22.814" y="0.006" drill="0.6"/>
-<pad name="VCC1" x="-20.754" y="0.006" drill="0.6"/>
-<pad name="R5" x="22.776" y="2.546" drill="0.6"/>
-<pad name="B5" x="24.806" y="2.566" drill="0.6"/>
-<pad name="P$21" x="26.876" y="2.546" drill="0.6"/>
-<pad name="P$22" x="21.766" y="0.006" drill="0.6"/>
-<pad name="G5" x="23.786" y="0.006" drill="0.6"/>
-<pad name="VCC5" x="25.846" y="0.006" drill="0.6"/>
-<pad name="R4" x="11.126" y="2.546" drill="0.6"/>
-<pad name="B4" x="13.156" y="2.566" drill="0.6"/>
-<pad name="P$27" x="15.226" y="2.546" drill="0.6"/>
-<pad name="P$28" x="10.116" y="0.006" drill="0.6"/>
-<pad name="G4" x="12.136" y="0.006" drill="0.6"/>
-<pad name="VCC4" x="14.196" y="0.006" drill="0.6"/>
+<pad name="R3" x="-0.524" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="B3" x="1.506" y="2.566" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$3" x="3.576" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$4" x="-1.534" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="G3" x="0.486" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="VCC3" x="2.546" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="R2" x="-12.174" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="B2" x="-10.144" y="2.566" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$9" x="-8.074" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$10" x="-13.184" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="G2" x="-11.164" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="VCC2" x="-9.104" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="R1" x="-23.824" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="B1" x="-21.794" y="2.566" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$15" x="-19.724" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$16" x="-24.834" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="G1" x="-22.814" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="VCC1" x="-20.754" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="R5" x="22.776" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="B5" x="24.806" y="2.566" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$21" x="26.876" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$22" x="21.766" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="G5" x="23.786" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="VCC5" x="25.846" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="R4" x="11.126" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="B4" x="13.156" y="2.566" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$27" x="15.226" y="2.546" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$28" x="10.116" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="G4" x="12.136" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="VCC4" x="14.196" y="0.006" drill="0.6" shape="long" rot="R90"/>
 <hole x="30.39" y="-2.3" drill="2.2"/>
 <hole x="-28.36" y="-2.31" drill="2.2"/>
 <wire x1="-28.5" y1="-4" x2="-28.5" y2="-8.3" width="0.127" layer="21"/>
@@ -15336,7 +15336,8 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 <text x="11.6" y="-2.8" size="1.27" layer="21" rot="SR0">4</text>
 <text x="23.7" y="-2.8" size="1.27" layer="21" rot="SR0">5</text>
 <text x="-19.05" y="1.37" size="0.8128" layer="21" rot="SR0">1</text>
-<text x="-25.2" y="-1.705" size="0.8128" layer="21" rot="SR0">6</text>
+<text x="-25.835" y="-2.34" size="0.8128" layer="21" rot="SR0">6</text>
+<text x="22.86" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -16973,7 +16974,7 @@ Source: http://www.osram.convergy.de/</description>
 </classes>
 <parts>
 <part name="IC1" library="AT90USB" deviceset="AT90USB162" device=""/>
-<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="16Mhz"/>
+<part name="X1" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="16Mhz"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -16989,7 +16990,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device="" value="Lightpack"/>
-<part name="X1" library="_USB_sockets" deviceset="USB-MICRO-B" device=""/>
+<part name="CN1" library="_USB_sockets" deviceset="USB-MICRO-B" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="10nF/500V"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="4u7"/>
@@ -17022,10 +17023,10 @@ Source: http://www.osram.convergy.de/</description>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="IC2" library="_LedDrivers" deviceset="DM631" device="_SOP24"/>
 <part name="IC3" library="_LedDrivers" deviceset="DM631" device="_SOP24"/>
-<part name="U$1" library="_RJ11" deviceset="RJ11-5P-REEL" device="-LIGHTPACK6T2"/>
-<part name="U$2" library="_RJ11" deviceset="RJ11-5P-REEL" device="-MAIN"/>
+<part name="CN2" library="_RJ11" deviceset="RJ11-5P-REEL" device="-LIGHTPACK6T2"/>
+<part name="CN3" library="_RJ11" deviceset="RJ11-5P-REEL" device="-MAIN"/>
 <part name="J1" library="_connectors" deviceset="DCJ0202" device=""/>
-<part name="BOOTLOADER" library="_switches" deviceset="31-XX" device=""/>
+<part name="S1" library="_switches" deviceset="31-XX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17039,7 +17040,7 @@ Source: http://www.osram.convergy.de/</description>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="81.28" y="85.09"/>
-<instance part="Q1" gate="G$1" x="132.08" y="27.94" smashed="yes">
+<instance part="X1" gate="G$1" x="132.08" y="27.94" smashed="yes">
 <attribute name="NAME" x="127.508" y="28.956" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.35" y="28.956" size="1.778" layer="96"/>
 </instance>
@@ -17063,9 +17064,12 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND10" gate="1" x="162.56" y="158.75"/>
 <instance part="GND11" gate="1" x="176.53" y="114.3"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="X1" gate="G$1" x="16.51" y="151.13" rot="MR0"/>
+<instance part="CN1" gate="G$1" x="16.51" y="151.13" smashed="yes" rot="MR0"/>
 <instance part="GND13" gate="1" x="34.29" y="123.19" rot="MR0"/>
-<instance part="C6" gate="G$1" x="24.13" y="130.81" rot="R180"/>
+<instance part="C6" gate="G$1" x="24.13" y="130.81" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.606" y="135.509" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="22.606" y="130.429" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="C4" gate="G$1" x="138.43" y="95.25"/>
 <instance part="R8" gate="G$1" x="34.29" y="132.08" smashed="yes" rot="MR90">
 <attribute name="NAME" x="31.75" y="133.3246" size="1.778" layer="95" rot="MR0"/>
@@ -17124,10 +17128,10 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="IC2" gate="G$1" x="200.66" y="139.7"/>
 <instance part="IC3" gate="G$1" x="200.66" y="86.36"/>
-<instance part="U$1" gate="G$1" x="231.14" y="139.7"/>
-<instance part="U$2" gate="G$1" x="231.14" y="86.36"/>
+<instance part="CN2" gate="G$1" x="231.14" y="139.7"/>
+<instance part="CN3" gate="G$1" x="231.14" y="86.36"/>
 <instance part="J1" gate="G$1" x="171.704" y="52.07"/>
-<instance part="BOOTLOADER" gate="1" x="77.47" y="22.86" smashed="yes" rot="R180">
+<instance part="S1" gate="1" x="77.47" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.439" y="22.098" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="19.685" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -17157,7 +17161,7 @@ Source: http://www.osram.convergy.de/</description>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="X1" gate="G$1" pin="GND"/>
+<pinref part="CN1" gate="G$1" pin="GND"/>
 <wire x1="29.21" y1="148.59" x2="24.13" y2="148.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -17250,7 +17254,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="BOOTLOADER" gate="1" pin="S"/>
+<pinref part="S1" gate="1" pin="S"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="77.47" y1="17.78" x2="77.47" y2="15.24" width="0.1524" layer="91"/>
 </segment>
@@ -17265,7 +17269,7 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="24.13" y="167.64"/>
 <junction x="66.04" y="167.64"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="X1" gate="G$1" pin="VBUS"/>
+<pinref part="CN1" gate="G$1" pin="VBUS"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="C7" gate="G$1" pin="+"/>
 </segment>
@@ -17322,27 +17326,27 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <wire x1="226.06" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT0"/>
-<pinref part="U$2" gate="G$1" pin="R1"/>
+<pinref part="CN3" gate="G$1" pin="R1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <wire x1="226.06" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT1"/>
-<pinref part="U$2" gate="G$1" pin="G1"/>
+<pinref part="CN3" gate="G$1" pin="G1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <wire x1="226.06" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT2"/>
-<pinref part="U$2" gate="G$1" pin="B1"/>
+<pinref part="CN3" gate="G$1" pin="B1"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <wire x1="36.83" y1="153.67" x2="24.13" y2="153.67" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="D-"/>
+<pinref part="CN1" gate="G$1" pin="D-"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -17351,7 +17355,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="24.13" y1="151.13" x2="34.29" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="151.13" x2="34.29" y2="146.05" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="146.05" x2="36.83" y2="146.05" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="D+"/>
+<pinref part="CN1" gate="G$1" pin="D+"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -17367,7 +17371,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="124.46" y1="27.94" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <junction x="124.46" y="27.94"/>
 <label x="120.904" y="33.528" size="1.778" layer="95"/>
-<pinref part="Q1" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -17383,7 +17387,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="139.7" y1="27.94" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
 <junction x="139.7" y="27.94"/>
 <label x="136.144" y="33.528" size="1.778" layer="95"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -17501,182 +17505,182 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <wire x1="226.06" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT0"/>
-<pinref part="U$1" gate="G$1" pin="R1"/>
+<pinref part="CN2" gate="G$1" pin="R1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <wire x1="226.06" y1="154.94" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT1"/>
-<pinref part="U$1" gate="G$1" pin="G1"/>
+<pinref part="CN2" gate="G$1" pin="G1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="220.98" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT2"/>
-<pinref part="U$1" gate="G$1" pin="B1"/>
+<pinref part="CN2" gate="G$1" pin="B1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="226.06" y1="149.86" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT3"/>
-<pinref part="U$1" gate="G$1" pin="R2"/>
+<pinref part="CN2" gate="G$1" pin="R2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <wire x1="220.98" y1="147.32" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT4"/>
-<pinref part="U$1" gate="G$1" pin="G2"/>
+<pinref part="CN2" gate="G$1" pin="G2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="226.06" y1="144.78" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT5"/>
-<pinref part="U$1" gate="G$1" pin="B2"/>
+<pinref part="CN2" gate="G$1" pin="B2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <wire x1="220.98" y1="142.24" x2="226.06" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT6"/>
-<pinref part="U$1" gate="G$1" pin="R3"/>
+<pinref part="CN2" gate="G$1" pin="R3"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="226.06" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT7"/>
-<pinref part="U$1" gate="G$1" pin="G3"/>
+<pinref part="CN2" gate="G$1" pin="G3"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <wire x1="220.98" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT9"/>
-<pinref part="U$1" gate="G$1" pin="R4"/>
+<pinref part="CN2" gate="G$1" pin="R4"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <wire x1="220.98" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT10"/>
-<pinref part="U$1" gate="G$1" pin="G4"/>
+<pinref part="CN2" gate="G$1" pin="G4"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <wire x1="220.98" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT11"/>
-<pinref part="U$1" gate="G$1" pin="B4"/>
+<pinref part="CN2" gate="G$1" pin="B4"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <wire x1="220.98" y1="127" x2="226.06" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT12"/>
-<pinref part="U$1" gate="G$1" pin="R5"/>
+<pinref part="CN2" gate="G$1" pin="R5"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <wire x1="220.98" y1="124.46" x2="226.06" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT13"/>
-<pinref part="U$1" gate="G$1" pin="G5"/>
+<pinref part="CN2" gate="G$1" pin="G5"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <wire x1="220.98" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT14"/>
-<pinref part="U$1" gate="G$1" pin="B5"/>
+<pinref part="CN2" gate="G$1" pin="B5"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="220.98" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT3"/>
-<pinref part="U$2" gate="G$1" pin="R2"/>
+<pinref part="CN3" gate="G$1" pin="R2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <wire x1="226.06" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT4"/>
-<pinref part="U$2" gate="G$1" pin="G2"/>
+<pinref part="CN3" gate="G$1" pin="G2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <wire x1="220.98" y1="91.44" x2="226.06" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT5"/>
-<pinref part="U$2" gate="G$1" pin="B2"/>
+<pinref part="CN3" gate="G$1" pin="B2"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <wire x1="226.06" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT6"/>
-<pinref part="U$2" gate="G$1" pin="R3"/>
+<pinref part="CN3" gate="G$1" pin="R3"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <wire x1="220.98" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT7"/>
-<pinref part="U$2" gate="G$1" pin="G3"/>
+<pinref part="CN3" gate="G$1" pin="G3"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <wire x1="220.98" y1="81.28" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT9"/>
-<pinref part="U$2" gate="G$1" pin="R4"/>
+<pinref part="CN3" gate="G$1" pin="R4"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <wire x1="226.06" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT8"/>
-<pinref part="U$2" gate="G$1" pin="B3"/>
+<pinref part="CN3" gate="G$1" pin="B3"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <wire x1="220.98" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT10"/>
-<pinref part="U$2" gate="G$1" pin="G4"/>
+<pinref part="CN3" gate="G$1" pin="G4"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <wire x1="226.06" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT11"/>
-<pinref part="U$2" gate="G$1" pin="B4"/>
+<pinref part="CN3" gate="G$1" pin="B4"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <wire x1="220.98" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT12"/>
-<pinref part="U$2" gate="G$1" pin="R5"/>
+<pinref part="CN3" gate="G$1" pin="R5"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <wire x1="226.06" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT13"/>
-<pinref part="U$2" gate="G$1" pin="G5"/>
+<pinref part="CN3" gate="G$1" pin="G5"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
 <wire x1="220.98" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="/OUT14"/>
-<pinref part="U$2" gate="G$1" pin="B5"/>
+<pinref part="CN3" gate="G$1" pin="B5"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -17687,7 +17691,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="24.13" y1="140.97" x2="24.13" y2="138.43" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="SHIELD1"/>
+<pinref part="CN1" gate="G$1" pin="SHIELD1"/>
 <wire x1="21.59" y1="143.51" x2="24.13" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="24.13" y1="143.51" x2="24.13" y2="140.97" width="0.1524" layer="91"/>
 </segment>
@@ -17775,31 +17779,31 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="186.69" y="54.61"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="EXP_BOARD" gate="G$1" pin="VCC"/>
-<pinref part="U$1" gate="G$1" pin="VCC1"/>
+<pinref part="CN2" gate="G$1" pin="VCC1"/>
 <wire x1="179.324" y1="54.61" x2="186.69" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="154.94" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC2"/>
+<pinref part="CN2" gate="G$1" pin="VCC2"/>
 <wire x1="246.38" y1="147.32" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC3"/>
+<pinref part="CN2" gate="G$1" pin="VCC3"/>
 <wire x1="246.38" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC4"/>
+<pinref part="CN2" gate="G$1" pin="VCC4"/>
 <wire x1="246.38" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC5"/>
+<pinref part="CN2" gate="G$1" pin="VCC5"/>
 <wire x1="246.38" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
 <junction x="248.92" y="154.94"/>
 <junction x="248.92" y="147.32"/>
 <junction x="248.92" y="139.7"/>
 <junction x="248.92" y="132.08"/>
 <junction x="248.92" y="124.46"/>
-<pinref part="U$2" gate="G$1" pin="VCC1"/>
+<pinref part="CN3" gate="G$1" pin="VCC1"/>
 <wire x1="246.38" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC2"/>
+<pinref part="CN3" gate="G$1" pin="VCC2"/>
 <wire x1="246.38" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC3"/>
+<pinref part="CN3" gate="G$1" pin="VCC3"/>
 <wire x1="246.38" y1="86.36" x2="248.92" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC4"/>
+<pinref part="CN3" gate="G$1" pin="VCC4"/>
 <wire x1="246.38" y1="78.74" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC5"/>
+<pinref part="CN3" gate="G$1" pin="VCC5"/>
 <wire x1="246.38" y1="71.12" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="248.92" y="101.6"/>
 <junction x="248.92" y="93.98"/>
@@ -17821,7 +17825,7 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <wire x1="226.06" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="/OUT8"/>
-<pinref part="U$1" gate="G$1" pin="B3"/>
+<pinref part="CN2" gate="G$1" pin="B3"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -17834,7 +17838,7 @@ Source: http://www.osram.convergy.de/</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="D1" gate="-B1" pin="C"/>
-<pinref part="BOOTLOADER" gate="1" pin="P"/>
+<pinref part="S1" gate="1" pin="P"/>
 <wire x1="77.47" y1="31.75" x2="77.47" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
