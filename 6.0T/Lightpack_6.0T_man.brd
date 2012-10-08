@@ -2250,7 +2250,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="3.5" y1="-4.1" x2="-3.5" y2="-4.1" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-4.1" x2="-3.5" y2="0" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
-<smd name="1.9PAD" x="0" y="-2.7" dx="1.9" dy="1.9" layer="1"/>
 <pad name="P$7" x="2.83" y="-2.7" drill="1.1" diameter="1.9"/>
 <pad name="P$8" x="-2.82" y="-2.7" drill="1.1" diameter="1.9"/>
 <wire x1="1.7" y1="0" x2="3.5" y2="0" width="0.127" layer="21"/>
@@ -2258,10 +2257,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="3.5" y1="-4.1" x2="-3.5" y2="-4.1" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-4.1" x2="-3.5" y2="0" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.05" x2="0.65" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.05" x2="0.65" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.45" x2="-0.8" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.05" x2="0.75" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.05" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.45" x2="-0.7" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.45" x2="-0.7" y2="-1.05" width="0.127" layer="21"/>
+<rectangle x1="-1.5" y1="-3.6" x2="-0.2" y2="-1.8" layer="1"/>
+<rectangle x1="0.2" y1="-3.6" x2="1.5" y2="-1.8" layer="1"/>
 </package>
 </packages>
 </library>
