@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,16 +41,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -15498,7 +15498,6 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 <wire x1="3.5" y1="-4.1" x2="-3.5" y2="-4.1" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-4.1" x2="-3.5" y2="0" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
-<smd name="1.9PAD" x="0" y="-2.7" dx="1.9" dy="1.9" layer="1"/>
 <pad name="P$7" x="2.83" y="-2.7" drill="1.1" diameter="1.9"/>
 <pad name="P$8" x="-2.82" y="-2.7" drill="1.1" diameter="1.9"/>
 <wire x1="1.7" y1="0" x2="3.5" y2="0" width="0.127" layer="21"/>
@@ -15506,10 +15505,53 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 <wire x1="3.5" y1="-4.1" x2="-3.5" y2="-4.1" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-4.1" x2="-3.5" y2="0" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.05" x2="0.65" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.05" x2="0.65" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.45" x2="-0.8" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.05" x2="0.75" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.05" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.45" x2="-0.7" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.45" x2="-0.7" y2="-1.05" width="0.127" layer="21"/>
+<rectangle x1="-1.5" y1="-3.6" x2="-0.2" y2="-1.8" layer="1"/>
+<rectangle x1="0.2" y1="-3.6" x2="1.5" y2="-1.8" layer="1"/>
+</package>
+<package name="USB-MICRO-B-UNIVERSAL">
+<description>&lt;b&gt;It's universal micro-B socket adjustable for 2 different types of socket.&lt;/b&gt; &lt;br /&gt;&lt;br /&gt;
+Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
+&lt;b&gt;Holes need to be milled places on milling (46) layer&lt;/b&gt;</description>
+<smd name="GND" x="1.3" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="ID" x="0.65" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D+" x="0" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D-" x="-0.65" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="VCC" x="-1.3" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<hole x="-2" y="-0.55" drill="0.8"/>
+<hole x="2" y="-0.55" drill="0.8"/>
+<pad name="P$7" x="3.7" y="-2.71" drill="0.3" diameter="0.8128" shape="long" rot="R90"/>
+<pad name="P$8" x="-3.7" y="-2.7" drill="0.3" diameter="0.8128" shape="long" rot="R90"/>
+<wire x1="1.7" y1="0" x2="3.5" y2="0" width="0.127" layer="21"/>
+<wire x1="3.5" y1="0" x2="3.5" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-4.1" x2="-3.5" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-4.1" x2="-3.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.05" x2="0.75" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.05" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.45" x2="-0.7" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.45" x2="-0.7" y2="-1.05" width="0.127" layer="21"/>
+<rectangle x1="-1.5" y1="-3.6" x2="-0.2" y2="-1.8" layer="1"/>
+<rectangle x1="0.2" y1="-3.6" x2="1.5" y2="-1.8" layer="1"/>
+<wire x1="-3" y1="-3.2" x2="-2.65" y2="-3.2" width="0" layer="46"/>
+<wire x1="-2.65" y1="-3.2" x2="-2.65" y2="-2.2" width="0" layer="46"/>
+<wire x1="-2.65" y1="-2.2" x2="-3" y2="-2.2" width="0" layer="46"/>
+<wire x1="-3" y1="-2.2" x2="-3" y2="-3.2" width="0" layer="46"/>
+<wire x1="2.66" y1="-3.2" x2="3.01" y2="-3.2" width="0" layer="46"/>
+<wire x1="3.01" y1="-3.2" x2="3.01" y2="-2.2" width="0" layer="46"/>
+<wire x1="3.01" y1="-2.2" x2="2.66" y2="-2.2" width="0" layer="46"/>
+<wire x1="2.66" y1="-2.2" x2="2.66" y2="-3.2" width="0" layer="46"/>
+<wire x1="-3.89" y1="-3.2" x2="-3.54" y2="-3.2" width="0" layer="46"/>
+<wire x1="-3.54" y1="-3.2" x2="-3.54" y2="-2.2" width="0" layer="46"/>
+<wire x1="-3.54" y1="-2.2" x2="-3.89" y2="-2.2" width="0" layer="46"/>
+<wire x1="-3.89" y1="-2.2" x2="-3.89" y2="-3.2" width="0" layer="46"/>
+<wire x1="3.52" y1="-3.2" x2="3.87" y2="-3.2" width="0" layer="46"/>
+<wire x1="3.87" y1="-3.2" x2="3.87" y2="-2.2" width="0" layer="46"/>
+<wire x1="3.87" y1="-2.2" x2="3.52" y2="-2.2" width="0" layer="46"/>
+<wire x1="3.52" y1="-2.2" x2="3.52" y2="-3.2" width="0" layer="46"/>
 </package>
 </packages>
 <symbols>
@@ -15539,6 +15581,19 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 </gates>
 <devices>
 <device name="" package="USB-MICRO-B-5F">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD1" pad="P$7"/>
+<connect gate="G$1" pin="SHIELD2" pad="P$8"/>
+<connect gate="G$1" pin="VBUS" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-UNIVERSAL" package="USB-MICRO-B-UNIVERSAL">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -16990,7 +17045,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device="" value="Lightpack"/>
-<part name="CN1" library="_USB_sockets" deviceset="USB-MICRO-B" device=""/>
+<part name="CN1" library="_USB_sockets" deviceset="USB-MICRO-B" device="-UNIVERSAL"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="10nF/500V"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="4u7"/>
@@ -17009,9 +17064,9 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SMB" value="SS14"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="LED_TX" library="adafruit" deviceset="LED" device="3MM" value="GREEN"/>
+<part name="ACT" library="adafruit" deviceset="LED" device="3MM" value="GREEN"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="249R"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="EXP_BOARD" library="brd-conn" deviceset="MA05-1" device=""/>
@@ -17098,11 +17153,11 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="C9" gate="G$1" x="176.53" y="73.66" rot="MR0"/>
 <instance part="D2" gate="G$1" x="232.41" y="167.64"/>
 <instance part="GND9" gate="1" x="66.04" y="123.19"/>
-<instance part="LED_TX" gate="G$1" x="36.83" y="80.01" rot="MR90"/>
+<instance part="ACT" gate="G$1" x="36.83" y="80.01" rot="MR90"/>
 <instance part="GND19" gate="1" x="25.4" y="64.77"/>
 <instance part="R9" gate="G$1" x="25.4" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.574" y="75.1586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="20.828" y="71.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="18.288" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="25.4" y="104.14" rot="MR0"/>
 <instance part="GND20" gate="1" x="25.4" y="95.25"/>
@@ -17817,7 +17872,7 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <wire x1="25.4" y1="78.74" x2="25.4" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="LED_TX" gate="G$1" pin="C"/>
+<pinref part="ACT" gate="G$1" pin="C"/>
 <wire x1="31.75" y1="80.01" x2="25.4" y2="80.01" width="0.2032" layer="91"/>
 </segment>
 </net>
@@ -17844,7 +17899,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED_TX" gate="G$1" pin="A"/>
+<pinref part="ACT" gate="G$1" pin="A"/>
 <pinref part="IC1" gate="G$1" pin="PD4(INT5)"/>
 <wire x1="39.37" y1="80.01" x2="45.72" y2="80.01" width="0.2032" layer="91"/>
 </segment>
