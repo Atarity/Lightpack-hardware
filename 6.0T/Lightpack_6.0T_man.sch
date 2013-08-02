@@ -15553,6 +15553,47 @@ Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
 <wire x1="3.87" y1="-2.2" x2="3.52" y2="-2.2" width="0" layer="46"/>
 <wire x1="3.52" y1="-2.2" x2="3.52" y2="-3.2" width="0" layer="46"/>
 </package>
+<package name="USB-MICRO-B-UNIVERSAL-SOLID-FOOTS">
+<description>&lt;b&gt;It's universal micro-B socket adjustable for 2 different types of socket (EVT-revision) .&lt;/b&gt; &lt;br /&gt;&lt;br /&gt;
+Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
+&lt;b&gt;Holes need to be milled places on milling (46) layer&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+-- 5x1mm foot slots&lt;br /&gt;
+-- solid 2-sided foot rectangle&lt;br /&gt;</description>
+<smd name="GND" x="1.3" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="ID" x="0.65" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D+" x="0" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D-" x="-0.65" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<smd name="VCC" x="-1.3" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
+<hole x="-2" y="-0.55" drill="0.8"/>
+<hole x="2" y="-0.55" drill="0.8"/>
+<wire x1="1.7" y1="0" x2="3.5" y2="0" width="0.127" layer="21"/>
+<wire x1="3.5" y1="0" x2="3.5" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-4.1" x2="-3.5" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-4.1" x2="-3.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.05" x2="0.75" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.05" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.45" x2="-0.7" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.45" x2="-0.7" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3.2" x2="-2.5" y2="-3.2" width="0" layer="46"/>
+<wire x1="-2.5" y1="-3.2" x2="-2.5" y2="-2.2" width="0" layer="46"/>
+<wire x1="-2.5" y1="-2.2" x2="-3" y2="-2.2" width="0" layer="46"/>
+<wire x1="-3" y1="-2.2" x2="-3" y2="-3.2" width="0" layer="46"/>
+<wire x1="2.51" y1="-3.2" x2="3.01" y2="-3.2" width="0" layer="46"/>
+<wire x1="3.01" y1="-3.2" x2="3.01" y2="-2.2" width="0" layer="46"/>
+<wire x1="3.01" y1="-2.2" x2="2.51" y2="-2.2" width="0" layer="46"/>
+<wire x1="2.51" y1="-2.2" x2="2.51" y2="-3.2" width="0" layer="46"/>
+<wire x1="-3.99" y1="-3.2" x2="-3.49" y2="-3.2" width="0" layer="46"/>
+<wire x1="-3.49" y1="-3.2" x2="-3.49" y2="-2.2" width="0" layer="46"/>
+<wire x1="-3.49" y1="-2.2" x2="-3.99" y2="-2.2" width="0" layer="46"/>
+<wire x1="-3.99" y1="-2.2" x2="-3.99" y2="-3.2" width="0" layer="46"/>
+<wire x1="3.47" y1="-3.2" x2="3.97" y2="-3.2" width="0" layer="46"/>
+<wire x1="3.97" y1="-3.2" x2="3.97" y2="-2.2" width="0" layer="46"/>
+<wire x1="3.97" y1="-2.2" x2="3.47" y2="-2.2" width="0" layer="46"/>
+<wire x1="3.47" y1="-2.2" x2="3.47" y2="-3.2" width="0" layer="46"/>
+<smd name="P$1" x="0" y="-2.7" dx="2" dy="8.5" layer="1" roundness="40" rot="R90"/>
+<smd name="P$2" x="0" y="-2.7" dx="2" dy="8.5" layer="16" roundness="40" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-2SHIELD">
@@ -15600,6 +15641,19 @@ Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SHIELD1" pad="P$7"/>
 <connect gate="G$1" pin="SHIELD2" pad="P$8"/>
+<connect gate="G$1" pin="VBUS" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-EVT" package="USB-MICRO-B-UNIVERSAL-SOLID-FOOTS">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD1" pad="P$1"/>
+<connect gate="G$1" pin="SHIELD2" pad="P$2"/>
 <connect gate="G$1" pin="VBUS" pad="VCC"/>
 </connects>
 <technologies>
@@ -17045,7 +17099,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device="" value="Lightpack"/>
-<part name="CN1" library="_USB_sockets" deviceset="USB-MICRO-B" device="-UNIVERSAL"/>
+<part name="CN1" library="_USB_sockets" deviceset="USB-MICRO-B" device="-EVT"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="10nF/500V"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="4u7"/>
