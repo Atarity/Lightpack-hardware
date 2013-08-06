@@ -15558,7 +15558,8 @@ Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
 Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
 &lt;b&gt;Holes need to be milled places on milling (46) layer&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
 -- 5x1mm foot slots&lt;br /&gt;
--- solid 2-sided foot rectangle&lt;br /&gt;</description>
+-- Separate doubled 2-sided foot rectangles&lt;br /&gt;
+&lt;s&gt;-- solid 2-sided foot rectangle&lt;/s&gt;&lt;br /&gt;</description>
 <smd name="GND" x="1.3" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
 <smd name="ID" x="0.65" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
 <smd name="D+" x="0" y="-0.03" dx="0.4" dy="1.35" layer="1"/>
@@ -15591,8 +15592,12 @@ Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
 <wire x1="3.97" y1="-3.2" x2="3.97" y2="-2.2" width="0" layer="46"/>
 <wire x1="3.97" y1="-2.2" x2="3.47" y2="-2.2" width="0" layer="46"/>
 <wire x1="3.47" y1="-2.2" x2="3.47" y2="-3.2" width="0" layer="46"/>
-<smd name="P$1" x="0" y="-2.7" dx="2" dy="8.5" layer="1" roundness="40" rot="R90"/>
-<smd name="P$2" x="0" y="-2.7" dx="2" dy="8.5" layer="16" roundness="40" rot="R90"/>
+<smd name="P$3" x="-3.25" y="-2.7" dx="2" dy="1.7" layer="1" roundness="35"/>
+<smd name="P$4" x="3.25" y="-2.7" dx="2" dy="1.7" layer="1" roundness="35"/>
+<smd name="P$1" x="-3.25" y="-2.7" dx="2" dy="1.7" layer="16" roundness="35"/>
+<smd name="P$5" x="3.25" y="-2.7" dx="2" dy="1.7" layer="16" roundness="35"/>
+<smd name="P$2" x="-0.85" y="-2.7" dx="1.3" dy="1.8" layer="1"/>
+<smd name="P$6" x="0.85" y="-2.7" dx="1.3" dy="1.8" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -15649,11 +15654,11 @@ Demand from the procurement unit, avoid materials in short supply.&lt;br /&gt;
 </device>
 <device name="-EVT" package="USB-MICRO-B-UNIVERSAL-SOLID-FOOTS">
 <connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D+" pad="D+" route="any"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHIELD1" pad="P$1"/>
-<connect gate="G$1" pin="SHIELD2" pad="P$2"/>
+<connect gate="G$1" pin="SHIELD1" pad="P$4" route="any"/>
+<connect gate="G$1" pin="SHIELD2" pad="P$1" route="any"/>
 <connect gate="G$1" pin="VBUS" pad="VCC"/>
 </connects>
 <technologies>
