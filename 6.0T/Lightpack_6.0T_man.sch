@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15293,36 +15293,36 @@ Author: &lt;a href="brunql.github.com"&gt;brunql.github.com&lt;/a&gt;</descripti
 <library name="_RJ11">
 <packages>
 <package name="RJ11-1XN-5P">
-<pad name="R3" x="-0.524" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="B3" x="1.506" y="2.566" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$3" x="3.576" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$4" x="-1.534" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="G3" x="0.486" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="VCC3" x="2.546" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="R2" x="-12.174" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="B2" x="-10.144" y="2.566" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$9" x="-8.074" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$10" x="-13.184" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="G2" x="-11.164" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="VCC2" x="-9.104" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="R1" x="-23.824" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="B1" x="-21.794" y="2.566" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$15" x="-19.724" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$16" x="-24.834" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="G1" x="-22.814" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="VCC1" x="-20.754" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="R5" x="22.776" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="B5" x="24.806" y="2.566" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$21" x="26.876" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$22" x="21.766" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="G5" x="23.786" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="VCC5" x="25.846" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="R4" x="11.126" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="B4" x="13.156" y="2.566" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$27" x="15.226" y="2.546" drill="0.6" shape="long" rot="R90"/>
-<pad name="P$28" x="10.116" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="G4" x="12.136" y="0.006" drill="0.6" shape="long" rot="R90"/>
-<pad name="VCC4" x="14.196" y="0.006" drill="0.6" shape="long" rot="R90"/>
+<pad name="R3" x="-0.524" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="B3" x="1.506" y="2.566" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$3" x="3.576" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$4" x="-1.534" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="G3" x="0.486" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="VCC3" x="2.546" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="R2" x="-12.174" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="B2" x="-10.144" y="2.566" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$9" x="-8.074" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$10" x="-13.184" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="G2" x="-11.164" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="VCC2" x="-9.104" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="R1" x="-23.824" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="B1" x="-21.794" y="2.566" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$15" x="-19.724" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$16" x="-24.834" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="G1" x="-22.814" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="VCC1" x="-20.754" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="R5" x="22.776" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="B5" x="24.806" y="2.566" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$21" x="26.876" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$22" x="21.766" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="G5" x="23.786" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="VCC5" x="25.846" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="R4" x="11.126" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="B4" x="13.156" y="2.566" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$27" x="15.226" y="2.546" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="P$28" x="10.116" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="G4" x="12.136" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
+<pad name="VCC4" x="14.196" y="0.006" drill="0.8" diameter="1.1176" shape="long" rot="R90"/>
 <hole x="30.39" y="-2.3" drill="2.2"/>
 <hole x="-28.36" y="-2.31" drill="2.2"/>
 <wire x1="-28.5" y1="-4" x2="-28.5" y2="-8.3" width="0.127" layer="21"/>
