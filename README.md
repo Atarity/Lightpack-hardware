@@ -1,7 +1,7 @@
 Lightpack-hardware
 ==================
 
-Lightpack hardware schematics and layouts in CAD Eagle 6+ . This repo was starts privately by reason of R&amp;D.
+Lightpack hardware schematics and layouts in CAD Eagle 6+ . This repo was started privately by reason of R&amp;D.
 
 -------------------------
 All updates stores in [CHANGELOG] (/Atarity/Lightpack-hardware/blob/master/CHANGELOG) file
